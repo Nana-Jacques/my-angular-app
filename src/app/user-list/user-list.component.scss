@@ -1,0 +1,44 @@
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+/* Champ de recherche */
+input.form-control {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Message de chargement ou vide */
+div[ngif] {
+  color: #999;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+/* Liste des utilisateurs */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgb(192, 188, 188);
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}

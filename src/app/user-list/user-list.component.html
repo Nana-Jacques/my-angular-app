@@ -1,0 +1,9 @@
+<input class="form-control mr-sm-2" type="text" [(ngModel)]="searchText" placeholder="Rechercher un utilisateur..." aria-label="Search">
+<div *ngIf="users.length === 0">
+    Chargement en cours... ou liste vide
+</div>
+<ul>
+    <li *ngFor="let user of users | filter:searchText">
+        {{ user.name }} - {{ user.email }}
+    </li>
+</ul>
