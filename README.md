@@ -17,7 +17,7 @@ Avant d'exécuter l'application, rassurez-vous d'avoir installer les éléments 
 
 ## Installation
 Cloner ce repository sur votre machine locale :
-git clone https://github.com/KevinDombeu/my-angular-app.git
+git clone https://github.com/Nana-Jacques/my-angular-app.git
 
 ## Démarrage du projet
 ng serve --open
